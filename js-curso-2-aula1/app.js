@@ -21,6 +21,7 @@ function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
     exibirTextoNaTela('p', 'Escolha um Número entre 1 e 10');
 }
+// função iniciar
 exibirMensagemInicial();
 
 function verificarChute() {
