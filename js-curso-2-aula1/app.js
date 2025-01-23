@@ -46,9 +46,9 @@ function verificarChute() {
         if (chute < numeroSecreto) {
             exibirTextoNaTela('p', 'Você errou :( O Número ' + chute + ' é Menor que o Número secreto, Vamos lá não desista!');
 
-            if (chute <= 0) {
-                exibirTextoNaTela('p', 'Número Inválido! Tente Novamente.');
-            }
+           // if (chute <= 0) {
+           //     exibirTextoNaTela('p', 'Número Inválido! Tente Novamente.');
+            //}
         }
         tentativas++;
         limparCampo();
