@@ -3,10 +3,10 @@
 //titulo.innerHTML = 'Jogo do número Segreto';
 
 //let paragrafo = document.querySelector('p');
-//paragrafo.innerHTML = 'Escolha um Número entre 1 e 10';
+//paragrafo.innerHTML = 'Escolha um Número entre 1 e 20';
 
 let listaNumeroSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 20;
 let numeroSecreto = gerarnumeroAleatorio();
 console.log(numeroSecreto);
 let tentativas = 1;
